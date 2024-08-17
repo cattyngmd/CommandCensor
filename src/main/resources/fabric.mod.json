@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "commandcensor",
+  "version": "${version}",
+  "name": "CommandCensor",
+  "description": "Mod that censors command input in chat",
+  "authors": [
+    "cattyn"
+  ],
+  "contact": {
+    "repo": "https://github.com/cattyngmd/CommandCensor"
+  },
+  "license": "MIT",
+  "icon": "assets/commandcensor/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "dev.cattyn.commandcensor.CommandCensor"
+    ],
+    "modmenu": [
+      "dev.cattyn.commandcensor.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "commandcensor.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
