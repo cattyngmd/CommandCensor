@@ -1,0 +1,7 @@
+{
+  "commandcensor.midnightconfig.title": "Command Censor Main",
+  "commandcensor.midnightconfig.enabled": "Włączone",
+  "commandcensor.midnightconfig.hideLength": "Ukryj Długość",
+  "commandcensor.midnightconfig.hideSuggestion": "Ukryj Sugestie",
+  "commandcensor.midnightconfig.commands": "Polecenia Do Ocenzurowania"
+}
